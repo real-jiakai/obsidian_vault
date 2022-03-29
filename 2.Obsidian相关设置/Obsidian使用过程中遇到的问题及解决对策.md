@@ -26,8 +26,19 @@ git push --force
 
 每天的21:00任务会自动进行。
 
+后序补充：
 
+后来，我想将ipad端的obsidian和windows端通过icloud云盘同步【具体可见官方的[同步教程](https://help.obsidian.md/Getting+started/Sync+your+notes+across+devices)】，并每天定期将windows下的icloud云盘中的obsidian vault下的内容推送到github。我就改写了.bat文件的内容。如下：
 
+```shell
+cd C:\Users\Gu Jiakai\iCloudDrive\iCloud~md~obsidian\obsidian_vault
+git add .
+git commit -m "auto deploy"
+# git push origin master --force
+git push --force
+```
 
+这其中我遇到了一个问题，GitHub创建仓库，并将其克隆下来，然后将obsidian的vault中的文件移至克隆下来的空仓库中，git push提交上去的是GitHub的main分支。
 
+我一开始使用shell脚本，push的时候在远端新建了一个master分支，并提交至该分支【git push origin master --force】，因此当我查看github仓库的时候发现，有一个main分支，还有一个master分支。最后，我修改了GitHub上该仓库的默认分支为master分支，将原本的main分支删除。这样，Obsidian的icloud同步和GitHub备份就两全了。
 
