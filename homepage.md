@@ -2,10 +2,6 @@
 
 My name is Jiakai Gu, a chinese college student in Nanjing Xiaozhuang University. 
 
-My English name is Jaya Johnson. Jaya means victory in Indonesian. Johnson means God's gift in English.
-
-My dream is to be a full stack programmer and travel around the world.  
-
 Welcome to my digital garden. It's a place where I share my thoughts in process. Hope you have fun!
 
 

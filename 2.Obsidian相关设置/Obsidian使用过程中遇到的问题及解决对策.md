@@ -42,3 +42,12 @@ git push --force
 
 我一开始使用shell脚本，push的时候在远端新建了一个master分支，并提交至该分支【git push origin master --force】，因此当我查看github仓库的时候发现，有一个main分支，还有一个master分支。最后，我修改了GitHub上该仓库的默认分支为master分支，将原本的main分支删除。这样，Obsidian的icloud同步和GitHub备份就两全了。
 
+## 4.Obsidian写作插入表情
+
+一开始我写作一直以来用Markdown表情短代码来插入表情【如`:smile:`=😄，，但是这在Obsidian Publish上就不奏效了。如果Obsidian软件不装表情短代码插件的话，也不会支持这样的操作。
+
+后来在Obsidian官方群里面，外国网友解答了我的疑惑。windows电脑用`win+.`，可以实现表情的插入，注意这边的`.`，是键盘上问号旁边的按键，并非小键盘的按键。这是Windows电脑的自带的表情符号，在任何地方通用的。如写html文件的时候想插入表情，即可通过此快捷键实现。
+
+## 5.Obsidian打开大纲视图
+
+设置—核心插件—大纲，开启，即可在大纲视图。
