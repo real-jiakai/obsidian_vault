@@ -8,4 +8,4 @@
 .trash/
 .DS_Store
 
-deploy.bat
+deploy.sh

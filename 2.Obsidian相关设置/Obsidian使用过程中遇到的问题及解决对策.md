@@ -14,33 +14,7 @@
 
 使用Obsidian Git插件同步简便操作，可以看这篇[文章](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/obsidian%E5%92%8CGit%E8%BF%9E%E7%94%A8%E5%AE%9E%E7%8E%B0%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%EF%BC%88obsidian+Git%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D%EF%BC%89+by+%E8%BD%AF%E9%80%9A%E8%BE%BE)。
 
-我使用此插件后觉得不合适，所以我主要使用windows下的任务计划程序来完成每天的备份。我的.bat文件的内容如下：
-
-```shell
-d:
-cd D:\obsidian_vault
-git add .
-git commit -m "auto deploy"
-git push --force
-```
-
-每天的21:00任务会自动进行。
-
-后序补充：
-
-后来，我想将ipad端的obsidian和windows端通过icloud云盘同步【具体可见官方的[同步教程](https://help.obsidian.md/Getting+started/Sync+your+notes+across+devices)】，并每天定期将windows下的icloud云盘中的obsidian vault下的内容推送到github。我就改写了.bat文件的内容。如下：
-
-```shell
-cd C:\Users\Gu Jiakai\iCloudDrive\iCloud~md~obsidian\obsidian_vault
-git add .
-git commit -m "auto deploy"
-# git push origin master --force
-git push --force
-```
-
-这其中我遇到了一个问题，GitHub创建仓库，并将其克隆下来，然后将obsidian的vault中的文件移至克隆下来的空仓库中，git push提交上去的是GitHub的main分支。
-
-我一开始使用shell脚本，push的时候在远端新建了一个master分支，并提交至该分支【git push origin master --force】，因此当我查看github仓库的时候发现，有一个main分支，还有一个master分支。最后，我修改了GitHub上该仓库的默认分支为master分支，将原本的main分支删除。这样，Obsidian的icloud同步和GitHub备份就两全了。
+不推荐使用icloud同步，会出现很多问题。
 
 ## 4.Obsidian写作插入表情
 
