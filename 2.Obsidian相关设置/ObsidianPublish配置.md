@@ -4,6 +4,10 @@
 
 1.在vault中新建的publish.css文件可以参考[obsidian-publish-css](https://github.com/selfire1/obsidian-publish-css)。该仓库的作者的笔记被obsidian官方选做了展览馆中的范例站点。
 
+> [!note]
+> 2022年的4月4号，更换了publish.css样式文件。主要参考了这个[css文件](https://publish-01.obsidian.md/access/3c4cf261765d1b812b962974f8d190ab/publish.css)
+> 其实每个Obsidian Publish的站点的样式文件可以通过浏览器的"F12+网络"中获取。
+
 2.关于如何使得Obsidian Publish支持markdown的扩展表情语法，即通过书写短代码实现表情，需要自己编写publish.js。由于本人水平有限，无法实现此功能。
 代替的做法：windows电脑，按住win键，再按住英文输入法下的`.`(逗号旁的点)，使用windows自带的表情。再次发布，即可看到表情正常显示。
 
@@ -21,5 +25,5 @@
 
 6.关于标注块，Obsidian已经原生支持，不需要的配置。可以装个Admonition插件来方便自己的插入操作。
 
-![](https://vip1.loli.io/2022/03/29/Ki1N5Ec7XrkLeJa.png)
+![](media/Ki1N5Ec7XrkLeJa.png)
 

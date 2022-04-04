@@ -8,7 +8,7 @@
 
 安装了Pandoc插件，ctrl+p打开命令面板，输入pandoc，发现没有导出pdf的选项，后来在网上查阅资料后解决了该问题，Obsidian右上角自带导出pdf功能。
 
-![](https://vip1.loli.io/2022/03/28/zG2eyKWxwDJLS8g.png)
+![](media/zG2eyKWxwDJLS8g.png)
 
 ## 3.Git同步
 
@@ -18,7 +18,7 @@
 
 ## 4.Obsidian写作插入表情
 
-一开始我写作一直以来用Markdown表情短代码来插入表情【如`:smile:`=😄，，但是这在Obsidian Publish上就不奏效了。如果Obsidian软件不装表情短代码插件的话，也不会支持这样的操作。
+一开始我写作一直以来用Markdown表情短代码来插入表情【如`:smile:`=😄】，但是这在Obsidian Publish上就不奏效了。如果Obsidian软件不装表情短代码插件的话，不支持这样的操作。
 
 后来在Obsidian官方群里面，外国网友解答了我的疑惑。windows电脑用`win+.`，可以实现表情的插入，注意这边的`.`，是键盘上问号旁边的按键，并非小键盘的按键。这是Windows电脑的自带的表情符号，在任何地方通用的。如写html文件的时候想插入表情，即可通过此快捷键实现。
 
