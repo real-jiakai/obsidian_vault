@@ -4,22 +4,23 @@
 
 2.目前安装的插件
 
-| 插件名                         | 插件用途                             |
-| ------------------------------ | ------------------------------------ |
-| Advanced Tables                | 简化markdown中的表格语法             |
-| lmage auto upload Plugin       | 配合picgo使用，上传图片至图床        |
-| Media Extended                 | 增强obsidian中视频音频的播放         |
-| Media Extended Bilibili Plugin | 添加对于BiliBili视频的支持           |
-| Mind Map                       | 生成思维导图                         |
-| Periodic Notes                 | 比Obsidian自带日记功能多了周记和月记 |
-| Pandoc Plugin                  | 文档导出插件                         |
-| Templater                      | Obsidian笔记模板                     |
-| Admonition                     | 增强标注                             |
-| Outliner                       | 增强列表                             |
-| Annotator                      | PDF标注                              |
-| Dataview                       | 数据查询与检索                       |
-| Excalidraw                     | 绘制图片                             |
-| Kanban                         | 看板                                     |
+| 插件名                         | 插件用途                               |
+| ------------------------------ | -------------------------------------- |
+| Advanced Tables                | 简化markdown中的表格语法               |
+| lmage auto upload Plugin       | 配合picgo使用，上传图片至图床          |
+| Media Extended                 | 增强Obsidian中视频、音频的播放         |
+| Media Extended Bilibili Plugin | 添加对BiliBili视频的支持               |
+| Mind Map                       | 生成思维导图                           |
+| Periodic Notes                 | 比Obsidian自带日记功能多了周记和月记等 |
+| Pandoc Plugin                  | 文档导出插件                           |
+| Templater                      | Obsidian笔记模板                       |
+| Admonition                     | 增强标注                               |
+| Outliner                       | 增强列表                               |
+| Annotator                      | PDF标注                                |
+| Dataview                       | 数据查询与检索                         |
+| Excalidraw                     | 绘图                                   |
+| Kanban                         | 看板                                   |
+| Quickadd                       | 快速添加                                      |
 
 3.Obsidian和普通的笔记软件的区别是什么？
 

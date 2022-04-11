@@ -1,4 +1,4 @@
-- 时间: {{time:YYYY-MM-DD HH:mm}}
+- 时间: {{time:YYYY-MM-DD}}
 - 标签: 
 ---
 
