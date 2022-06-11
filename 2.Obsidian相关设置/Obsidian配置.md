@@ -1,26 +1,10 @@
-#obsidian 
+#Obsidian
 
 1.主题，我选择了Minimal。
 
 2.目前安装的插件
 
-| 插件名                         | 插件用途                               |
-| ------------------------------ | -------------------------------------- |
-| Advanced Tables                | 简化markdown中的表格语法               |
-| lmage auto upload Plugin       | 配合picgo使用，上传图片至图床          |
-| Media Extended                 | 增强Obsidian中视频、音频的播放         |
-| Media Extended Bilibili Plugin | 添加对BiliBili视频的支持               |
-| Mind Map                       | 生成思维导图                           |
-| Periodic Notes                 | 比Obsidian自带日记功能多了周记和月记等 |
-| Pandoc Plugin                  | 文档导出插件                           |
-| Templater                      | Obsidian笔记模板                       |
-| Admonition                     | 增强标注                               |
-| Outliner                       | 增强列表                               |
-| Annotator                      | PDF标注                                |
-| Dataview                       | 数据查询与检索                         |
-| Excalidraw                     | 绘图                                   |
-| Kanban                         | 看板                                   |
-| Quickadd                       | 快速添加                                      |
+见我的Notion空间的这个[页面](https://gujiakai.notion.site/Obsidian-29aa9a99901d4bf695a301572578a9ce)。
 
 3.Obsidian和普通的笔记软件的区别是什么？
 

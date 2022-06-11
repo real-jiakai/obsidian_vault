@@ -1,4 +1,4 @@
-#obsidian
+#Obsidian
 
 ## Obsidian Publish的相关配置
 
