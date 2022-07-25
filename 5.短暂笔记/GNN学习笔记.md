@@ -1,3 +1,6 @@
+- 归档: [[人工智能]]
+---
+
 #人工智能 #GNN
 
 1.GAN(Generative Adversarial Networks)

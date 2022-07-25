@@ -1,3 +1,7 @@
+- 归档：[[Obsidian]]
+---
+
+
 #Obsidian
 
 ## Obsidian Publish的相关配置

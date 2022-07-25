@@ -1,3 +1,7 @@
+- 归档：[[Obsidian]]
+---
+
+
 #Obsidian
 
 ## 1.BiliBili视频内嵌

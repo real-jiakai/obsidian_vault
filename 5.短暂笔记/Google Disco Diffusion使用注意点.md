@@ -1,3 +1,6 @@
+- 归档: [[Text To Image]]
+---
+
 #文本转图像
 
 1.Google Disco Diffusion是一个在云端进行计算，在电脑上进行渲染的人工智能程序。

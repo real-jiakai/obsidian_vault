@@ -1,3 +1,7 @@
+- 归档：[[Obsidian]]
+---
+
+
 #Obsidian
 
 1.主题，我选择了Minimal。
